@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.container{
+  background-color: black;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+img{
+  width: 30%;
+}
+.wraper{
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 600;
+  margin: 40px 0;
+}
+button{
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 30px;
+  margin: 30px 0;
+}
